@@ -1,13 +1,13 @@
-# Bcash
+# Bwormhole
 
 [![CircleCi Status][circleci-status-img]][circleci-status-url]
 [![Coverage Status][coverage-status-img]][coverage-status-url]
 
-**Bcash** is an alternative implementation of the bitcoin cash protocol,
+**Bcash** is an alternative implementation of the bitcoin cash wormhole protocol,
 written in node.js.
 
-Bcash is undergoing development and testing and is in alpha stage. Bcash
-is a fork of [bcoin][bcoin] and has the same RPC API.
+Bwormhole is undergoing development and testing and is in alpha stage. Bwormhole
+is a fork of [bcash][bcoin] and has the same RPC API.
 
 ## Uses
 
@@ -22,8 +22,8 @@ Try it in the browser: https://bcoin.io/browser/
 ## Install
 
 ```
-$ git clone git://github.com/bcoin-org/bcash.git
-$ cd bcash
+$ git clone git://github.com/copernet/bwormhole.git
+$ cd bwormhole
 $ npm install
 $ ./bin/bcash
 ```
@@ -72,3 +72,9 @@ See LICENSE for more info.
 [coverage-status-url]: https://codecov.io/gh/bcoin-org/bcash?branch=master
 [circleci-status-img]: https://circleci.com/gh/bcoin-org/bcash/tree/master.svg?style=shield
 [circleci-status-url]: https://circleci.com/gh/bcoin-org/bcash/tree/master
+
+
+
+## 贡献与许可协议
+
+如果您为这个项目贡献代码，就默认你允许你的代码在MIT许可证下分发。你应该保证你的所有代码都是原创工作。
